@@ -1,0 +1,113 @@
+ /* 字体颜色 */
+:root {--mainColor: #e0c180;}  /* 主色调 */
+.mColor { color: var(--mainColor) }  /* 主色调 */
+.wColor { color: #FFFFFF; }
+.yColor { color: #e5761a; }  
+.gColor { color: #999999; } 
+.color6 { color: #666666; }
+.rColor { color: #f94452; }
+.lColor { color: #01c200; }
+.nColor { color: #00213c; }
+
+ /* 背景颜色 */
+.wBgColor { background-color: #FFFFFF; }
+.mBgColor { background-color: var(--mainColor); }  /* 主色调 */
+.gBgColor { background-color: #f5f5f5; }
+.linearBg { background: linear-gradient(to right,var(--mainColor), #1d239d); }
+.linearBg2 { background: linear-gradient(to right,#33aff9, #3642f2); }
+
+/* 宽高 */
+.flex1 { flex: 1; }
+.flex2 { flex: 2; }
+.flex3 { flex: 3; }
+.flex4 { flex: 4; }
+.flex5 { flex: 5; }
+.flex6 { flex: 6; }
+.flex7 { flex: 7; }
+.flex8 { flex: 8; }
+.flex9 { flex: 9; }
+.w48 { width: calc(100% - 48rpx); }
+.w100v { width: 100vw; }
+.h100v { height: 100vh; }
+.h100 { height: 100%; }
+.h44 { height: 44px; }
+.h50 { height: 50px; }
+
+ /* 字体大小 */
+.size20 { font-size: 20rpx; }
+.size24 { font-size: 24rpx; }
+.size28 { font-size: 28rpx; }
+.size30 { font-size: 30rpx; }
+.size36 { font-size: 36rpx; }
+.size40 { font-size: 40rpx; }
+.size48 { font-size: 48rpx; }
+
+ /* 字体粗度 */
+ .weight650 { font-weight: 650; }
+ .weight550 { font-weight: 550; }
+
+ /* flex布局 */
+ .flexWrap { flex-wrap: wrap; }
+ .flexLeft { display: flex; align-items: center; }
+ .flexRight { display: flex; align-items: center; justify-content: flex-end; }
+ .flexContent { display: flex; align-items: center; justify-content: center; }
+ .flexColumn { display: flex; flex-direction: column; align-items: center; }
+ .flexSpace { display: flex; align-items: center; justify-content: space-between; }
+ .flexAround { display: flex; align-items: center; justify-content: space-around; }
+
+ /* margin外边距 */
+ .marT10 { margin-top: 10rpx; }
+ .marT20 { margin-top: 20rpx; }
+ .marT24 { margin-top: 24rpx; }
+ .marT30 { margin-top: 30rpx; }
+ .marT50 { margin-top: 50rpx; }
+ .marB24 { margin-bottom: 24rpx; }
+ .marAuto { margin: auto; }
+ .marTB24 { margin: 24rpx 0; }
+ .marL10 { margin-left: 10rpx; }
+ .marL24 { margin-left: 24rpx; }
+
+ /* pandding内边距 */
+ .padTB10 { padding: 10rpx 0; }
+ .padTB24 { padding: 24rpx 0; }
+ .padT24 { padding-top: 24rpx; }
+ .pad24 { padding: 24rpx; }
+ .pad10 { padding: 10rpx; }
+ .padL24 { padding-left: 24rpx; }
+ .padR24 { padding-right: 24rpx; }
+
+ /* border边框 */
+ .mbor1px { border: 1px solid var(--mainColor); }  /* 主色调的边框 */
+ .mborB1px { border-bottom: 1px solid var(--mainColor); }
+ .mborL1px { border-left: 1px solid var(--mainColor); }
+ .gBor1px { border: 1px solid #efeeee; }
+ .gBorB1px { border-bottom: 1px solid #efeeee; }
+ .gBorL1px { border-left: 1px solid #efeeee; }
+
+ /* 圆角 */
+ .bor10 { border-radius: 10rpx; }
+ .bor24 { border-radius: 24rpx; }
+ .bor100 { border-radius: 100rpx; }
+ .bor010 { border-radius: 100%; }
+
+ /* 超出文字 省略 */
+ .elipes { display: -webkit-box; text-overflow: ellipsis; overflow: hidden; -webkit-line-clamp: 1; word-break: break-word; -webkit-box-orient: vertical; }
+
+ /* 状态栏颜色 */
+ .status_bar {
+ 	height: var(--status-bar-height);
+	background-color: #08070e;
+	position: sticky;
+	left: 0;
+ 	top: 0;
+ 	z-index: 998;
+ }
+
+ .textCenter { text-align: center; }
+ .boBox { box-sizing: border-box; }
+  /* 定位 */
+ .posiRela { position: relative; }
+ .posiFix { position: fixed!important; }
+ .posiAbs { position: absolute; }
+ .posiSticky { position: sticky; }
+

@@ -1,0 +1,97 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/tabbar/home",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/tabbar/shop",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/tabbar/wallet",
+            "style" : {
+				"navigationBarBackgroundColor":"#343434",
+				"navigationBarTitleText":"钱包"
+				
+			}
+        }
+        ,{
+            "path" : "pages/tabbar/my",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/myPages/setUp",
+            "style" : {
+				"navigationBarTitleText":"账户设置"
+			}
+        },
+		{
+		    "path" : "pages/logins/login",
+		    "style" : {
+				"navigationBarTitleText":"登录"
+			}
+		},
+		{
+		    "path" : "pages/logins/forGet",
+		    "style" : {
+				"navigationBarTitleText":"忘记密码"
+			}
+		},
+		{
+		    "path" : "pages/logins/reg",
+		    "style" : {
+				"navigationBarTitleText":"注册"
+			}
+		},
+		{
+		    "path" : "pages/logins/yinsixy",
+		    "style" : {
+				"navigationBarTitleText":"隐私协议"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#343434",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#999",
+	    "selectedColor": "#537bf6",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/tabbar/home",
+	        "iconPath": "static/tabbar/home1.png",
+	        "selectedIconPath": "static/tabbar/home2.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/tabbar/shop",
+	        "iconPath": "static/tabbar/shop3.png",
+	        "selectedIconPath": "static/tabbar/shop4.png",
+	        "text": "商城"
+	    },
+		{
+		    "pagePath": "pages/tabbar/wallet",
+		    "iconPath": "static/tabbar/wallet5.png",
+		    "selectedIconPath": "static/tabbar/wallet6.png",
+		    "text": "钱包"
+		}, {
+		    "pagePath": "pages/tabbar/my",
+		    "iconPath": "static/tabbar/my7.png",
+		    "selectedIconPath": "static/tabbar/my8.png",
+		    "text": "我的"
+		}]
+	}
+}
